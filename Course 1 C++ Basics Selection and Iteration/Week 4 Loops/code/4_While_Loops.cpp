@@ -23,6 +23,16 @@ void hello_5_Time(){
     }
 }
 
+void infinite_loop(){
+    int count = 5;
+    while (count > 0)
+    {
+        /* code */
+        cout << "Hello" << endl;
+    }
+    
+}
+
 int main (){
 
     cout << "**** Using For Loop ****" << endl;
@@ -35,4 +45,9 @@ int main (){
     cout << endl;
     cout << "**** Hello 5 Times ****" << endl;
     hello_5_Time();
+
+    // Uncomment below code to check the infinite loop
+    /*cout << endl;
+    cout << "**** Infinite Loop ****" << endl;
+    infinite_loop(); */
 }
